@@ -1,6 +1,5 @@
 # 🌟 Hi there, I'm Jashdeep Singh! 👋
 
-![Welcome Banner](https://user-images.githubusercontent.com/123456/placeholder.png) <!-- replace with a custom banner if you'd like -->
 
 Welcome to my GitHub profile! I'm a **Software Engineer** passionate about building efficient, scalable applications and solving complex problems.
 
@@ -24,14 +23,14 @@ Welcome to my GitHub profile! I'm a **Software Engineer** passionate about build
 
 ### Software Engineer 1 | MAQ Software
 **Nov 2023 - Present**
-- 🔹 **Multipurpose RESTful APIs**: Created low-latency, reusable APIs tailored to client requirements.
-- 🔹 **Performance Optimization**: Improved code performance with optimized data structure operations.
-- 🔹 **Project Management**: Integrated Azure DevOps & Jira for streamlined CI/CD.
+- **Multipurpose RESTful APIs**: Created low-latency, reusable APIs tailored to client requirements.
+- **Performance Optimization**: Improved code performance with optimized data structure operations.
+- **Project Management**: Integrated Azure DevOps & Jira for streamlined CI/CD.
 
 ### Software Development Engineer 1 | Advantage Club
 **Jan 2023 - Oct 2023**
-- 🔹 **Survey Module**: Developed a high-engagement survey module for 1.5 lakh users, boosting engagement by 25%.
-- 🔹 **Award Mailer Automation Dashboard**: Created an award dashboard used by 400+ client organizations.
+- **Survey Module**: Developed a high-engagement survey module for 1.5 lakh users, boosting engagement by 25%.
+- **Award Mailer Automation Dashboard**: Created an award dashboard used by 400+ client organizations.
 
 ---
 
