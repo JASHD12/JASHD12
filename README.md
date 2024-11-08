@@ -1,6 +1,5 @@
 # 🌟 Hi there, I'm Jashdeep Singh! 👋
 
-
 Welcome to my GitHub profile! I'm a **Software Engineer** passionate about building efficient, scalable applications and solving complex problems.
 
 ---
@@ -55,10 +54,10 @@ Welcome to my GitHub profile! I'm a **Software Engineer** passionate about build
   <img src="https://img.icons8.com/color/48/000000/trophy.png"/>
 </p>
 
-- **Codeforces Specialist** | Global Rank 433 in Codeforces Round 782 (Div. 2)
-- **Amazon ML Summer School 2022** - Top 1% out of 19,000 applicants
-- **Publicis Sapient Jumpstart 2022** - Selected out of 29,000 applicants
-- **Certified** in Data Structures & Algorithms by CodeChef
+- **[Codeforces Specialist](https://codeforces.com/profile/coder_7777)** | Global Rank 433 in Codeforces Round 782 (Div. 2)
+- **[Amazon ML Summer School 2022](https://drive.google.com/file/d/15bHUgHYw3bH8rPSpmUJOLxF0grF4YFu6/view)** - Top 1% out of 19,000 applicants
+- **[Publicis Sapient Jumpstart 2022](https://unstop.com/certificate-preview/8f3b899c-dc45-4b61-ad82-d6b69e543bcf)** - Selected out of 29,000 applicants
+- **[Certified in Data Structures & Algorithms by CodeChef](https://www.codechef.com/certificates/public/26cd1f7)**
 
 ---
 
@@ -76,4 +75,3 @@ Welcome to my GitHub profile! I'm a **Software Engineer** passionate about build
 ---
 
 ![Thanks for Visiting](https://img.shields.io/badge/Thanks%20for%20visiting!-%F0%9F%91%8B-brightgreen?style=for-the-badge)
-
