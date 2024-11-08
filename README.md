@@ -1,4 +1,4 @@
-# 🌟 Hi there, I'm Jashdeep Singh! 👋
+# 🌟 Hi there, I'm Jashdeep Singh! 
 
 Welcome to my GitHub profile! I'm a **Software Engineer** passionate about building efficient, scalable applications and solving complex problems.
 
