@@ -1,68 +1,75 @@
-# 🌟 Hi there, I'm Jashdeep Singh! 
+# Jashdeep Singh
 
-Welcome to my GitHub profile! I'm a **Software Engineer** passionate about building efficient, scalable applications and solving complex problems.
+**Software Engineer | M.Sc. Data Science | Backend, Data & AI Automation**
 
----
+Based in Gießen, Germany. I have **3+ years of experience** building backend services, automating reporting workflows, and integrating business systems. I am currently studying **M.Sc. Data Science at Philipps-Universität Marburg** and building projects with LLM APIs, agents, and data tools.
 
-## 🔧 Tech Stack
+Previously at **Paytm Money**, **MAQ Software**, and **Advantage Club**.
 
-<!-- Badges for quick tech overview --> <p align="center"> <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"/> <img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/> <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/> <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/> <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white"/> <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white"/> <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"/> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/> <img src="https://img.shields.io/badge/Data%20Structures%20&%20Algorithms-61DAFB?style=for-the-badge&logo=code&logoColor=black"/> <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/> </p>
----
+**Open to working student opportunities** in software engineering, data, and AI automation — up to **20 hours/week during the semester**.
 
-## 💼 Professional Experience
+[LinkedIn](https://www.linkedin.com/in/jashdeep-singh-78a280196/) · [Email](mailto:jashdeep188@gmail.com) · [Forecast Arena](https://jashd12.github.io/forecast-arena/)
 
-### Software Engineer 1 | MAQ Software
-**Nov 2023 - Present**
-- **Multipurpose RESTful APIs**: Created low-latency, reusable APIs tailored to client requirements.
-- **Performance Optimization**: Improved code performance with optimized data structure operations.
-- **Project Management**: Integrated Azure DevOps & Jira for streamlined CI/CD.
+## Featured project
 
-### Software Development Engineer 1 | Advantage Club
-**Jan 2023 - Oct 2023**
-- **Survey Module**: Developed a high-engagement survey module for 1.5 lakh users, boosting engagement by 25%.
-- **Award Mailer Automation Dashboard**: Created an award dashboard used by 400+ client organizations.
+### [Forecast Arena](https://github.com/JASHD12/forecast-arena)
 
----
+A Python forecasting benchmark for evaluating probability forecasts, LLM agents, and automated workflows.
 
-## 🌟 Featured Projects
+- Integrated LLM APIs, tool-using agents, LangGraph workflows, and retrieval over previously resolved questions.
+- Added strict JSON validation, evaluation sets, tracing, and tool-call and cost limits to evaluate agent reliability.
+- Built a read-only MCP server, FastAPI and JSON interfaces, dashboards, and scheduled GitHub Actions workflows.
+- Kept historical ML backtests separate from live forecasts, with results recorded in an append-only public ledger.
 
-<p align="center">
-  <img src="https://img.icons8.com/emoji/48/000000/star-emoji.png"/>
-</p>
+**Python · FastAPI · LangGraph · LLM APIs · MCP · DuckDB · GitHub Actions**
 
-1. **[Share Memories](https://github.com/JASHD12/Share-Memories)** - A social media app for sharing memories with features for user authentication, CRUD operations, and commenting.
-   - **Tech Stack**: Node.js, Express.js, MongoDB, React.js
-   - **Live Demo**: [memoriesshare.netlify.app](https://memoriesshare.netlify.app/)
+[Source code](https://github.com/JASHD12/forecast-arena) · [Live results](https://jashd12.github.io/forecast-arena/) · [Project tour](https://jashd12.github.io/forecast-arena/recruiters.html)
 
-2. **Award Mailer Automation Dashboard** - Streamlined award management with features for template creation, editing, and publishing.
-   - **Tech Stack**: Node.js, Express.js, MongoDB, React.js
+## Experience
 
----
+### Software Engineer — [Paytm Money](https://www.paytmmoney.com/)
+**Jan 2025 – Sep 2026 · India**
 
-## 🏆 Achievements
+- Built Kafka ingestion and validation workflows across **5M accounts** and investigated AWS production issues using logs and metrics.
+- Developed Java/Spring Boot APIs supporting **100K+ monthly portfolio syncs** and idempotent sell/switch APIs for **50K+ monthly orders**. Contributed to high-level and low-level system design.
 
-<p align="center">
-  <img src="https://img.icons8.com/color/48/000000/trophy.png"/>
-</p>
+### Software Engineer 1 — [MAQ Software](https://maqsoftware.com/)
+**Nov 2023 – Nov 2024 · India**
 
-- **[Codeforces Specialist](https://codeforces.com/profile/coder_7777)** | Global Rank 433 in Codeforces Round 782 (Div. 2)
-- **[Amazon ML Summer School 2022](https://drive.google.com/file/d/15bHUgHYw3bH8rPSpmUJOLxF0grF4YFu6/view)** - Top 1% out of 19,000 applicants
-- **[Publicis Sapient Jumpstart 2022](https://unstop.com/certificate-preview/8f3b899c-dc45-4b61-ad82-d6b69e543bcf)** - Selected out of 29,000 applicants
-- **[Certified in Data Structures & Algorithms by CodeChef](https://www.codechef.com/certificates/public/26cd1f7)**
+- Automated SQL Server-to-Power BI reporting with Azure and Databricks, saving approximately **15 hours/week**. Added automated tests and deployment checks in GitHub Actions.
+- Built a Python/FastAPI backend for a LangChain document assistant and evaluated its answers against source passages.
 
----
+### Software Developer, Full-time — [Advantage Club](https://www.advantageclub.co/)
+**Jul 2023 – Sep 2023 · India**
 
-## 📫 Let's Connect!
+- Built React/JavaScript survey forms with dynamic state and improved responsiveness on lower-end devices.
 
-<p align="center">
-  <a href="http://www.linkedin.com/in/jashdeep-singh-78a280196">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="mailto:jashdeep188@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-</p>
+### Software Development Intern — [Advantage Club](https://www.advantageclub.co/)
+**Jan 2023 – Jun 2023 · India**
 
----
+- Integrated an HR dashboard with third-party systems, eliminated daily manual data entry, and reduced award email processing time by **60%**.
 
-![Thanks for Visiting](https://img.shields.io/badge/Thanks%20for%20visiting!-%F0%9F%91%8B-brightgreen?style=for-the-badge)
+## Technologies
+
+| Area | Tools and technologies |
+| --- | --- |
+| Backend & APIs | Java, Spring Boot, Python, FastAPI, REST, JSON, Kafka |
+| AI & automation | LLM APIs, tool-using agents, LangGraph, LangChain, MCP |
+| Data & reporting | SQL, SQL Server, Power BI, Databricks, DuckDB |
+| Cloud & delivery | AWS, Azure, Git, GitHub Actions |
+| Web | React, JavaScript |
+
+## Education
+
+- **M.Sc. Data Science — Philipps-Universität Marburg**  
+  Oct 2026 – Present · Expected graduation: Oct 2028
+- **B.E. Computer Engineering — Thapar Institute of Engineering & Technology**  
+  Jul 2019 – Jun 2023 · CGPA: **8.16/10**
+
+## Achievements
+
+- **[Codeforces Specialist](https://codeforces.com/profile/coder_7777)** — Global rank **433** in Round 782 (Div. 2).
+- **[Amazon ML Summer School](https://drive.google.com/file/d/15bHUgHYw3bH8rPSpmUJOLxF0grF4YFu6/view)** — Selected from **30K+ applicants**.
+- **[CodeChef certification](https://www.codechef.com/certificates/public/26cd1f7)** — Data Structures and Algorithms.
+
+**Languages:** English — C1 (IELTS) · Hindi — native
