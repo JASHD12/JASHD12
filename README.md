@@ -1,40 +1,92 @@
 # Jashdeep Singh
 
-**Software engineer · M.Sc. Data Science, Philipps-Universität Marburg**
+**Software engineer and M.Sc. Data Science student (Marburg, expected 2028)**, open to Werkstudent and full-time roles in AI/ML, data science, data engineering and software engineering in Germany.
 
-I came to data science from backend engineering. I’m interested in what happens when a model has to beat a simple baseline, work on later data, or fit on a CPU. My projects include the code and results so you can check what held up.
+[jashdeep188@gmail.com](mailto:jashdeep188@gmail.com) · 📍 Gießen, Germany · open to relocating anywhere in Germany
 
-Based in Germany. Open to **working-student roles (Werkstudent) in AI/ML and data science** and **full-time applied ML engineering roles**.
+![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) ![Azure](https://img.shields.io/badge/-Azure-0078D4?logo=azure&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?logo=github_actions&logoColor=white) ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?logo=pytorch&logoColor=white) ![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?logo=langchain&logoColor=white)
+
+M.Sc. Data Science student and software engineer (three years): Python, Azure, data platforms, ML and LLM evaluation. I automate reporting, build APIs and CI/CD checks, and compare forecasts and text classifiers on fixed test sets, documenting how to repeat the experiments.
+
+## What I work on
+
+- **Forecasting and ML evaluation:** Forecast Arena, below.
+- **Data platforms and backend:** Kafka ingestion, Azure Databricks reporting, Java/Spring Boot APIs (see Experience).
+- **LLM apps and evaluation:** a LangChain document assistant, and a measured QLoRA fine-tuning study inside Forecast Arena.
 
 ## Featured projects
 
-### [Forecast Arena](https://github.com/JASHD12/forecast-arena) · Forecasting and LLM evaluation
+### [Forecast Arena](https://github.com/JASHD12/forecast-arena)
 
-A public benchmark where baselines, ML models and LLM agents publish probabilities before the outcomes are known. An append-only ledger records the forecasts for scoring and audit.
+A live, public benchmark: simple baselines, a classical ML model and LLM forecasters publish probabilities for yes/no questions about tomorrow (German day-ahead electricity, weather, Wikipedia attention, exchange rates, crypto) **before the answer exists**, into an append-only, hash-chained ledger. When does an LLM agent beat a classical model, and when does it not? An honest "it does not" is a valid result.
 
-- **365-day electricity-price backtest.** Gradient boosting achieved a Brier score of **0.1930**, compared with **0.2205** for the persistence baseline (lower is better). [Backtest results](https://jashd12.github.io/forecast-arena/backtests.html)
-- **276 held-out questions.** I compared a QLoRA-tuned language model with its 4-bit CPU export. The export lost most of the improvement over the original model.
+**[Live site](https://jashd12.github.io/forecast-arena/)** · **[For recruiters](https://jashd12.github.io/forecast-arena/recruiters.html)** · **[Ask the Arena](https://jashd12.github.io/forecast-arena/ask.html)** · [Source](https://github.com/JASHD12/forecast-arena)
 
-[Live benchmark](https://jashd12.github.io/forecast-arena/) · [Code tour](https://github.com/JASHD12/forecast-arena/blob/main/docs/CODE_TOUR.md) · [Fine-tuning study](https://github.com/JASHD12/forecast-arena/blob/main/docs/lab/qlora-r1.md) · [Forecast audit case](https://jashd12.github.io/forecast-arena/audit.html)
+[![Standings](https://raw.githubusercontent.com/JASHD12/forecast-arena/main/docs/img/standings.svg)](https://jashd12.github.io/forecast-arena/)
 
-### [DataPilot](https://github.com/JASHD12/datapilot) · Applied ML and retrieval
+**Result so far (backtest, not the live record):** over 365 days of German day-ahead electricity, the gradient-boosted model scores Brier 0.1930 against 0.2205 for "same as last time" and 0.2466 for the base rate (lower is better; always saying 50% scores 0.25). Paired difference to persistence: -0.0275 [-0.0378, -0.0162], supported.
 
-A workbench for exploring data, comparing models and checking answers against source evidence. You can train small models in the browser on historical Olist orders and evaluate them on later orders.
+**Live record:** Whether LLM agents beat the classical model is **too early to tell**; the [Status page](https://jashd12.github.io/forecast-arena/status.html) shows the current counts.
 
-- **Review classification.** On 6,548 final-period reviews with wording unseen in earlier splits, the classifier scored **0.6475 macro-F1**, compared with **0.2605** for the majority baseline.
-- **Multilingual retrieval.** I compared TF-IDF, multilingual E5 embeddings and reciprocal-rank fusion, then documented ranking errors and limitations.
+- **A classical model that clearly beats the base rate** (backtest, 365 days of German electricity): Brier 0.1930 vs 0.2466, paired difference -0.0536 [-0.0655, -0.0414]. Calibrated gradient-boosted quantile regression.
+- **Forecasts locked before the truth:** an append-only, hash-chained ledger on a git branch; `arena ledger verify --git` lets anyone check that no forecast was written after its question locked. Failures are recorded as skips, never filled in.
 
-[Try the demo](https://jashdeep-datapilot.pages.dev/) · [Review study](https://github.com/JASHD12/datapilot/blob/main/docs/REVIEW_STUDY.md) · [Retrieval study](https://github.com/JASHD12/datapilot/blob/main/docs/RETRIEVAL_STUDY.md)
+### DataPilot (text classification and retrieval, 2026)
 
-## Software engineering experience
+- Compared word and character TF-IDF on 40,423 chronologically split Portuguese reviews. Checked macro-F1 on held-out reviews with previously unseen wording.
+- Evaluated multilingual retrieval with lexical search, E5 embeddings and reciprocal-rank fusion.
 
-- **Paytm Money · Software Engineer** · Jan 2025 – Sep 2026  
-  Java and Spring Boot services for 100K+ monthly portfolio syncs and 50K+ monthly orders. Added retry handling and built Kafka ingestion and validation across 5M accounts.
-- **MAQ Software · Software Engineer 1** · Nov 2023 – Nov 2024  
-  Built a Python and FastAPI document assistant and evaluated answers against source passages. Automated reporting with SQL Server, Azure and Databricks, saving about 15 hours a week.
-- **Advantage Club · Software Developer** · Jul – Sep 2023  
-  Built React survey forms and improved responsiveness on lower-end devices.
-- **Advantage Club · Software Development Intern** · Jan – Jun 2023  
-  Integrated an HR dashboard with third-party systems and cut award email processing time by 60%.
+## Experience
 
-I specified and directed Forecast Arena and used AI coding agents for implementation. Its figures are generated from the public record.
+- **Software Engineer, Paytm Money** · India · Jan 2025 – Sep 2026
+- **Software Engineer 1, MAQ Software** · India · Nov 2023 – Nov 2024
+- **Software Developer (Full-time), Advantage Club** · India · Jul 2023 – Sep 2023
+- **Software Development Intern, Advantage Club** · India · Jan 2023 – Jun 2023
+
+<details><summary>What I did in each role</summary>
+
+**Software Engineer, Paytm Money** · India · Jan 2025 – Sep 2026
+- Built Kafka ingestion and validation for portfolio data across 5M accounts. Investigated production issues using AWS logs and metrics.
+- Built Java and Spring Boot APIs for 100K+ monthly portfolio syncs. Worked with MySQL and Redis and contributed to microservice designs.
+- Used idempotency to prevent duplicate orders on retry. The APIs handled 50K+ mutual fund sell and switch orders per month.
+
+**Software Engineer 1, MAQ Software** · India · Nov 2023 – Nov 2024
+- Automated SQL Server-to-Power BI reporting with Azure Databricks, saving about 15 hours of manual work per week.
+- Built a Python and FastAPI service for a LangChain document assistant. Added automated tests and deployment checks in GitHub Actions.
+
+**Software Developer (Full-time), Advantage Club** · India · Jul 2023 – Sep 2023
+- Built React survey forms and improved responsiveness on slower devices.
+
+**Software Development Intern, Advantage Club** · India · Jan 2023 – Jun 2023
+- Integrated services into an HR dashboard and cut award email processing time by 60%.
+
+</details>
+
+## Skills
+
+| Area | Tools |
+|---|---|
+| Languages | Python, Java, C++, SQL |
+| Cloud and data | Microsoft Azure, Databricks, Kafka, Power BI, MySQL, Redis, AWS logs and metrics |
+| Machine learning | scikit-learn, LightGBM, PyTorch, time-series backtesting, calibration |
+| Language models | QLoRA, LangChain, LangGraph, retrieval-augmented generation, LLM evaluation, Claude and GPT |
+| APIs and backend | FastAPI, REST APIs, Spring Boot, microservice designs |
+| Platform and CI/CD | Git, GitHub Actions, Docker, Linux, Kubernetes manifest checks, API smoke tests |
+| Learning | Windmill orchestration, infrastructure as code (IaC) |
+
+## Education, achievements, languages
+
+**Master of Science (M.Sc.) in Data Science**, Philipps-Universität Marburg · Oct 2026 – present (expected graduation Oct 2028)
+Current coursework in forecasting and computer vision.
+
+**Bachelor of Engineering (B.E.) in Computer Engineering**, Thapar Institute of Engineering & Technology, India · Jul 2019 – Jun 2023 · CGPA 8.16/10
+
+- Codeforces Specialist, global rank 433 in Round 782 (Div. 2)
+- Amazon ML Summer School, selected from 30K+ applicants
+- CodeChef, Data Structures and Algorithms certification
+
+**Languages:** English C1 (IELTS) · German A1 (learning) · Hindi native
+
+## How it was built
+
+Specified and directed by me; implemented with AI coding agents; every figure on the site is generated from the public record by code. Research project, not advice of any kind.
